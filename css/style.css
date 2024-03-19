@@ -1,0 +1,92 @@
+body {
+  background-image: url("../img/ugly-background-tile.png");
+  background-repeat: repeat;
+  border: 30px dashed blue;
+  padding: 20px;
+}
+
+h1 {
+  color: #60f542;
+  font-size: 100px;
+  text-align: center;
+  font-family: cursive;
+  border: 10px dotted yellowgreen;
+  filter: drop-shadow(5px 0 0.25rem black);
+}
+
+p,
+h2 {
+  color: blueviolet;
+  font-size: 24px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+h2 {
+  filter: drop-shadow(5px 0 0.25rem black);
+}
+
+#rat-one {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+#rat-two {
+  position: absolute;
+  left: 70%;
+  top: 40%;
+}
+
+#rat-three {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+}
+#rat-four {
+  position: absolute;
+  left: 30%;
+  top: 70%;
+  z-index: -1;
+}
+
+#rat-five {
+  position: absolute;
+  left: 80%;
+  top: 0%;
+  z-index: -1;
+}
+
+#rat-six {
+  position: absolute;
+  left: 3%;
+  top: 3%;
+}
+
+#star-one {
+  position: absolute;
+  left: 3%;
+  top: 20%;
+  z-index: -1;
+}
+
+#star-two {
+  position: absolute;
+  left: 90%;
+  top: 40%;
+  z-index: -1;
+}
+
+#star-three {
+  position: absolute;
+  left: 16%;
+  top: 30%;
+}
+
+#star-four {
+  position: absolute;
+  left: 77%;
+  top: 60%;
+  z-index: -1;
+}
